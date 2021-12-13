@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../src/assets/mixins.scss";
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Oswald:wght@200&family=Roboto&display=swap');
+
+html, body { 
+    @include width-height(100%, 100%);
+    margin: 0;
+    border: none;
+    background-color: black;
+}

@@ -1,0 +1,6 @@
+@import "../../../styles.scss";
+@import "../../../assets/mixins.scss";
+
+.main-menu_wrap {
+    @include width-height(100%, 100%);
+}

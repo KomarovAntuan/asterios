@@ -1,0 +1,25 @@
+@import "../../../../styles.scss";
+@import "../../../../assets/mixins.scss";
+
+.header {
+    @include width-height(100%, 80px);
+    display: flex;
+    background: linear-gradient(to bottom, #5f5f5f, black);
+    
+    &__title {
+        font-family: "Oswald", sans-serif;
+        margin-left: 35px;
+        margin-top: 12px;
+        font-size: 28px;
+        color: #ffffff;
+
+        @include _max-440 {
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    }
+
+    @include _max-440 {
+        height: 50px;
+    }
+}
