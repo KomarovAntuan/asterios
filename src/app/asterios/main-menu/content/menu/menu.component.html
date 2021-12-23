@@ -1,3 +1,10 @@
 <div class="menu-wrap">
-
+    <div class="menu">
+        <label class="menu__title">Выберите сервер</label>
+        <div class="menu__buttons">
+            <button class="button" (click)="selectServer(1)">x1</button>
+            <button class="button" (click)="selectServer(5)">x5</button>
+            <button disabled class="button" (click)="selectServer(7)">x7</button>
+        </div>
+    </div>
 </div>

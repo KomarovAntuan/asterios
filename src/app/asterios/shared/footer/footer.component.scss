@@ -11,9 +11,9 @@
         margin-left: 35px;
         font-size: 16px;
         color: #ffffff;
+    }
 
-        @include _max-440 {
-            display: none;
-        }
+    @include _max-440 {
+        display: none;
     }
 }
